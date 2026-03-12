@@ -123,7 +123,8 @@ cd 3tier-terraform-project
 terraform init
 ```
 
-<img src="https://github.com/user-attachments/assets/eaacad33-18b1-46fc-bf61-142873a17eab" width="900">
+<img width="1366" height="768" alt="Screenshot (38)" src="https://github.com/user-attachments/assets/d14ca22b-7d5b-4e6c-a98c-26c056126a83" />
+
 
 ---
 
@@ -133,7 +134,8 @@ terraform init
 terraform plan
 ```
 
-<img src="https://github.com/user-attachments/assets/3f5a9877-f0b1-4ae9-8ef6-a85b525dcfe9" width="900">
+<img width="1366" height="768" alt="Screenshot (39)" src="https://github.com/user-attachments/assets/a79be012-fb28-4ffc-b805-41f1eabacb40" />
+
 
 ---
 
@@ -143,7 +145,7 @@ terraform plan
 terraform apply
 ```
 
-<img src="https://github.com/user-attachments/assets/2cd072bc-e5c9-401d-b99e-6855c3fb994e" width="900">
+<img width="1366" height="768" alt="Screenshot (41)" src="https://github.com/user-attachments/assets/7015c85f-5708-4dce-86f7-7945bd9b016d" />
 
 ---
 
@@ -164,25 +166,27 @@ This architecture follows security best practices:
 
 ## VPC
 
-<img src="https://github.com/user-attachments/assets/bcf19bfd-c8b8-470e-8294-c22a3ec807ed" width="900">
+<img width="1366" height="768" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/769948b2-e3ea-4ca2-aaf7-ed49cb4a6e22" />
 
 ---
 
 ## EC2 Instances
 
-<img src="https://github.com/user-attachments/assets/18c1be07-c660-4351-bc9d-d550e018a731" width="900">
+<img width="1366" height="768" alt="Screenshot (46)" src="https://github.com/user-attachments/assets/8e9d8999-407a-452d-9da8-2b7e0e57ab3c" />
 
 ---
 
 ## RDS Database
 
-<img src="https://github.com/user-attachments/assets/9d585a58-bdf2-43e1-842b-5b6cdccc9739" width="900">
+<img width="1366" height="768" alt="Screenshot (49)" src="https://github.com/user-attachments/assets/ce70e992-9029-4098-ad49-e4cdf0c7c65c" />
+
 
 ---
 
 ## Web Application
 
-<img src="https://github.com/user-attachments/assets/38ef3f62-dcbd-43c8-b495-fd010ebd7fa2" width="900">
+![webpage](https://github.com/user-attachments/assets/0af8fd18-27f8-4d9c-84e6-282a4f978e26)
+
 
 ---
 
