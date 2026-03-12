@@ -136,7 +136,6 @@ terraform apply
 
 <img width="1366" height="768" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/2cd072bc-e5c9-401d-b99e-6855c3fb994e" />
 
-
 ---
 
 # Security Best Practices
