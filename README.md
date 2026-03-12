@@ -5,18 +5,19 @@
 This project demonstrates a **production-ready 3-tier architecture** deployed on AWS using Terraform modules.
 The infrastructure is designed to be **modular, scalable, and secure**, eliminating manual provisioning and configuration drift.
 
-The architecture includes:
+### Architecture Tiers
 
-* Web Tier (Public Subnet)
-* Application Tier (Private Subnet)
-* Database Tier (Private Subnet)
+* **Web Tier** – Public Subnet
+* **Application Tier** – Private Subnet
+* **Database Tier** – Private Subnet
 
-Infrastructure is automated using Terraform modules.
+Infrastructure provisioning is fully automated using **Terraform modules**.
 
 ---
 
 # Architecture Diagram
 
+```
                 Internet
                     |
               Internet Gateway
@@ -34,6 +35,7 @@ Infrastructure is automated using Terraform modules.
             Private Subnet (AZ2)
                Amazon RDS
                  MySQL
+```
 
 ---
 
@@ -74,11 +76,11 @@ Infrastructure is automated using Terraform modules.
 Creates the networking layer:
 
 * Custom VPC
-* Public subnets
-* Private subnets
+* Public Subnets
+* Private Subnets
 * Internet Gateway
 * NAT Gateway
-* Route tables
+* Route Tables
 
 ---
 
@@ -103,38 +105,45 @@ Creates a MySQL database instance with:
 
 # Deployment Steps
 
-Clone the repository:
+## 1 Clone the Repository
 
 ```
 git clone https://github.com/Nikitapatil0304/3tier-terraform-project.git
 ```
 
-Navigate to the project folder:
+## 2 Navigate to Project Directory
 
 ```
 cd 3tier-terraform-project
 ```
 
-Initialize Terraform:
+## 3 Initialize Terraform
 
+```
 terraform init
+```
 
-<img width="1366" height="768" alt="Screenshot (38)" src="https://github.com/user-attachments/assets/eaacad33-18b1-46fc-bf61-142873a17eab" />
+<img src="https://github.com/user-attachments/assets/eaacad33-18b1-46fc-bf61-142873a17eab" width="900">
 
+---
 
-Check execution plan:
+## 4 Review Execution Plan
 
-
+```
 terraform plan
+```
 
-<img width="1366" height="768" alt="Screenshot (41)" src="https://github.com/user-attachments/assets/3f5a9877-f0b1-4ae9-8ef6-a85b525dcfe9" />
+<img src="https://github.com/user-attachments/assets/3f5a9877-f0b1-4ae9-8ef6-a85b525dcfe9" width="900">
 
+---
 
-Deploy infrastructure:
+## 5 Deploy Infrastructure
 
+```
 terraform apply
+```
 
-<img width="1366" height="768" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/2cd072bc-e5c9-401d-b99e-6855c3fb994e" />
+<img src="https://github.com/user-attachments/assets/2cd072bc-e5c9-401d-b99e-6855c3fb994e" width="900">
 
 ---
 
@@ -142,37 +151,38 @@ terraform apply
 
 This architecture follows security best practices:
 
-* Web servers are placed in **public subnet**
-* Application servers are placed in **private subnet**
-* Database is deployed in **private subnet**
-* RDS access restricted to application tier only
+* Web servers deployed in **public subnet**
+* Application servers deployed in **private subnet**
+* Database deployed in **private subnet**
+* RDS access restricted to application tier
 * Security groups control inter-tier communication
-* Infrastructure managed using Infrastructure as Code
+* Infrastructure managed using **Infrastructure as Code**
 
 ---
 
 # Deployment Screenshots
 
-### VPC
+## VPC
 
-<img width="1366" height="768" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/bcf19bfd-c8b8-470e-8294-c22a3ec807ed" />
+<img src="https://github.com/user-attachments/assets/bcf19bfd-c8b8-470e-8294-c22a3ec807ed" width="900">
 
+---
 
+## EC2 Instances
 
-### EC2 Instances
+<img src="https://github.com/user-attachments/assets/18c1be07-c660-4351-bc9d-d550e018a731" width="900">
 
-<img width="1366" height="725" alt="Ec2" src="https://github.com/user-attachments/assets/18c1be07-c660-4351-bc9d-d550e018a731" />
+---
 
+## RDS Database
 
-### RDS Database
+<img src="https://github.com/user-attachments/assets/9d585a58-bdf2-43e1-842b-5b6cdccc9739" width="900">
 
-<img width="1366" height="768" alt="Screenshot (49)" src="https://github.com/user-attachments/assets/9d585a58-bdf2-43e1-842b-5b6cdccc9739" />
+---
 
+## Web Application
 
-### Web Application
-
-![webpage](https://github.com/user-attachments/assets/38ef3f62-dcbd-43c8-b495-fd010ebd7fa2)
-
+<img src="https://github.com/user-attachments/assets/38ef3f62-dcbd-43c8-b495-fd010ebd7fa2" width="900">
 
 ---
 
