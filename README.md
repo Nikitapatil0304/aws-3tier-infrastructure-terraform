@@ -17,25 +17,7 @@ Infrastructure provisioning is fully automated using **Terraform modules**.
 
 # Architecture Diagram
 
-```
-                Internet
-                    |
-              Internet Gateway
-                    |
-            Public Subnet (AZ1)
-             Web Server EC2
-                (Nginx)
-                    |
-                NAT Gateway
-                    |
-            Private Subnet (AZ1)
-             App Server EC2
-                 (PHP)
-                    |
-            Private Subnet (AZ2)
-               Amazon RDS
-                 MySQL
-```
+<img width="1536" height="1024" alt="ChatGPT Image Mar 12, 2026, 05_07_52 PM" src="https://github.com/user-attachments/assets/769f1659-dd83-4299-91c2-de41b26e7240" />
 
 ---
 
